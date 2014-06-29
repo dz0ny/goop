@@ -1,4 +1,4 @@
-package goop
+package lib
 
 import (
 	"fmt"
@@ -10,8 +10,8 @@ import (
 
 	"code.google.com/p/go.tools/go/vcs"
 
-	"github.com/nitrous-io/goop/colors"
-	"github.com/nitrous-io/goop/parser"
+	"github.com/dz0ny/goop/colors"
+	"github.com/dz0ny/goop/parser"
 )
 
 type UnsupportedVCSError struct {

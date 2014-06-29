@@ -1,13 +1,13 @@
 Goop
 ====
 
-![Goopie](https://raw.githubusercontent.com/nitrous-io/goop/master/goopie.png)
+[![Gobuild Download](http://beta.gobuild.io/badge/github.com/dz0ny/goop/download.png)](http://beta.gobuild.io/github.com/dz0ny/goop)
 
 A dependency manager for Go (golang), inspired by Bundler. It is different from other dependency managers in that it does not force you to mess with your `GOPATH`.
 
 ### Getting Started
 
-1. Install Goop: `go get github.com/nitrous-io/goop`
+1. Install Goop: `go get github.com/dz0ny/goop`
 
 2. Create `Goopfile`. Revision reference (e.g. Git SHA hash) is optional, but recommended. Prefix hash with `#`. (This is to futureproof the file format.)
 

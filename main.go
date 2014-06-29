@@ -7,8 +7,8 @@ import (
 	"strconv"
 	"strings"
 
-	"./colors"
-	"./goop"
+	"github.com/dz0ny/goop/colors"
+	"github.com/dz0ny/goop/lib"
 )
 
 func main() {
@@ -19,7 +19,7 @@ func main() {
 		os.Stderr.WriteString(colors.Error + name + ": failed to determine present working directory!" + colors.Reset + "\n")
 	}
 
-	g := goop.NewGoop(path.Join(pwd), os.Stdin, os.Stdout, os.Stderr)
+	g := lib.NewGoop(path.Join(pwd), os.Stdin, os.Stdout, os.Stderr)
 
 	if len(os.Args) < 2 {
 		printUsage()
